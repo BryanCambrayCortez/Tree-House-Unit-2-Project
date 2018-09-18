@@ -1,0 +1,204 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0 auto;
+}
+
+/* header styles */
+
+h1, h2{
+	font-family: 'Kalam', cursive;
+	text-align: center;
+}
+/* Mobile image Style */
+img {
+	width: 100%;
+}
+.wrapper img {
+   width: 70%;
+
+}
+/* navigation */
+
+.main-nav {
+	text-align: center;
+	margin-bottom: 3.125em;
+}
+
+
+.main-nav ul {
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.main-nav li a {
+	display: block;
+	color: #000;
+	padding: 0.5em 1em;
+	text-decoration: none;
+	margin-top: 0.625em;
+	margin-bottom: 0.625em;
+	font-family: 'Merienda', cursive;
+}
+
+li a:hover {
+	background-color: #555;
+	color: white;
+}
+
+.active {
+	background-color: aqua;
+	color: white;
+}
+
+
+/* Margins and Padding */
+
+#portfolio {
+
+margin-bottom: 9.3em;
+
+}
+
+.wrapper {
+	margin-bottom: 6.25em;
+}
+
+
+.main-header,
+.col,
+.wrapper,
+.closing		
+{
+	margin-right: 1.25em;
+	margin-left: 1.25em;
+	text-align: center;
+}
+
+.closing {
+	margin-top: 9.375em;
+}
+
+footer {
+	border-top: 0.125em solid black;
+	margin: 0 auto;
+}
+
+footer p {
+	float: left;
+	padding-left: 3.125em;
+}
+
+.full-nav {
+	display: none;
+}
+
+/* Breakpoints */
+
+@media (min-width: 768px) {
+
+
+.main-nav li {
+	display: inline-block;
+	margin-right: 1.5em;
+}
+
+.main-nav ul {
+	margin-right: 31.25em;
+}
+
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	display: inline-block;
+	height: 18.75em;
+}
+
+.wrapper img {
+	float: right;
+	width: 30%;
+}
+
+.wrapper p {
+	text-align: left;
+	font-size: 1.25em;
+	width: 70%;
+}
+
+.container {
+	width: 90%;
+	max-height: 71.87em;
+	margin: 0 auto;
+}
+
+.col {
+	display: inline-block;
+	width: 50%;
+	margin-right: -1.25em;
+	vertical-align: top;
+	padding-right: 2em;
+	height: 21.875em;
+}
+
+.two {
+	float: right;
+}
+
+.closing {
+	margin: 0 auto;
+}
+
+.to-top {
+	display: none;
+}
+
+.full-nav{
+	display: inline-block;
+}
+
+.full-nav h2 {
+	float: left;
+	margin-left: 1.56em;
+}
+
+.full-nav ul {
+	text-align: right;
+}
+
+.full-nav li:last-of-type {
+	margin-right: 0;
+}
+
+.clearfix {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+}
+
+@media(min-width: 1024px) {
+
+.container {
+	width: 90%;
+	max-height: 80em;
+	margin: 0 auto;
+}
+
+.col {
+	display: inline-block;
+	width: 33.3%;
+	margin-right: -1.25em;
+	vertical-align: top;
+	padding-right: 2em;
+	height: 21.875em;
+	margin-bottom: 3.5em;
+}
+
+
+}
